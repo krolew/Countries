@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.szukajBox{
+    display: flex;
+    justify-content: center;
+}
+.szukaj{
+    width: 300px;
+    height: 30px;
+    padding: 1rem;
+    margin-top: 2.9rem;
+    display: none;
+}
+body{
+    background-color: #B4C7E5;
+}
+button{
+
+    /* padding: 1rem 3rem; */
+    font-size: 1.4rem;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #568dc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+    margin-top: 2rem;
+    border: 1px solid #fff;
+}
+button:hover{
+     cursor: pointer;
+     background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	 background-color:#378de5;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 500px;
+    height: 333px;
+    border: 3px solid #fff;
+    margin-top: 2rem;
+}
+
+.kraje{
+    display: none;
+    margin-top: 1rem;
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.bigBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigBox:last-child{
+    grid-column-start: 2;
+}
+.panstwo{
+    font-size: 1.4rem;
+    color: #000;
+    margin-top: .5rem;
+    letter-spacing: 1px;
+}
+.stolica{
+     font-size: 1.2rem;
+     color: #000;
+     margin-top: .5rem;
+}
+
+.imgbox{
+    width: 200px;
+}
+.krajeEuropy{
+    display: none;
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
